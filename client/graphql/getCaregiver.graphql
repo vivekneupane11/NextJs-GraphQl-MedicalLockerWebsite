@@ -1,0 +1,17 @@
+query getCaregiver($getCaregiver:String!){
+    getCaregiver(id:$getCaregiver){
+        status
+    
+    user {
+      _id
+      id
+      email
+      name
+      role
+      # photo
+      updatedAt
+      createdAt
+    }
+  
+    }
+}

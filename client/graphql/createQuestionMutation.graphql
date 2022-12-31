@@ -1,0 +1,6 @@
+mutation createQuestion($input: questionInput!) {
+  createQuestion(input: $input) {
+    status
+
+  }
+}

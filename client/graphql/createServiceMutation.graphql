@@ -1,0 +1,13 @@
+mutation createService($input: ServiceInput!) {
+  createService(input: $input) {
+    status
+    service {
+      serviceName
+      assignedTo
+      assignedAt
+      admin
+      # photo
+      image
+    }
+  }
+}

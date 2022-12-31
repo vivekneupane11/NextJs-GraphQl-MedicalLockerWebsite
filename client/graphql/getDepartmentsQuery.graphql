@@ -1,0 +1,11 @@
+query getDepartments($input:Departmentfilter!){
+    getDepartments(input:$input){
+        status,
+        results,
+        departments{
+          _id
+       departmentName
+       admin
+    }
+}
+}

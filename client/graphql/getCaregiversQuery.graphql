@@ -1,0 +1,15 @@
+query getCaregivers {
+  getCaregivers {
+    
+    user {
+      _id
+      id
+      email
+      name
+      role
+      # photo
+      updatedAt
+      createdAt
+    }
+  }
+}

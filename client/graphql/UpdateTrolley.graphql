@@ -1,0 +1,13 @@
+mutation updateTrolley($input: ServiceUpdateTrolleyInput!) {
+  updateTrolley(input: $input) {
+    status
+    service {
+      serviceName
+      assignedTo
+      assignedAt
+      admin
+      # photo
+      image
+    }
+  }
+}

@@ -1,0 +1,9 @@
+mutation createDepartment($input: DepartmentInput!) {
+  createDepartment(input: $input) {
+    status
+    department {
+      departmentName
+  admin
+    }
+  }
+}

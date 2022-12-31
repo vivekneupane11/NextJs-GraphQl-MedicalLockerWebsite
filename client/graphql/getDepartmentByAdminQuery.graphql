@@ -1,0 +1,9 @@
+query getDepartmentByAdmin($getDepartmentByAdmin:String!){
+    getDepartmentByAdmin(email:$getDepartmentByAdmin){
+        status
+        department{
+       departmentName
+       admin
+        }
+    }
+}

@@ -1,0 +1,11 @@
+mutation UpdateUser($input: SignUpInput!) {
+  UpdateUser(input: $input) {
+    status
+    user {
+      name
+      email
+      # photo
+      role
+    }
+  }
+}

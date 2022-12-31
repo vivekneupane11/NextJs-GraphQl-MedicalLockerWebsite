@@ -1,0 +1,33 @@
+query getServices($input:ServiceFilter!){
+    getServices(input:$input){
+        status,
+        results,
+        services{
+          _id
+                serviceName
+      assignedTo
+      assignedAt
+      admin
+      trolleyOne{
+        name
+        expiryDate
+        qty
+      }
+        trolleyTwo{
+        name
+        expiryDate
+        qty
+      }
+        trolleyThree{
+        name
+        expiryDate
+        qty
+      }
+        trolleyFour{
+        name
+        expiryDate
+        qty
+      }
+    }
+}
+}

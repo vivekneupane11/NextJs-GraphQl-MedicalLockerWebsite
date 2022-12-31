@@ -1,0 +1,35 @@
+query getService($getServiceId:String!){
+    getService(id:$getServiceId){
+        status
+        service{
+          _id
+                serviceName
+      assignedTo
+      assignedAt
+      admin
+      trolleyOne{
+        name
+        expiryDate
+        qty
+      }
+        trolleyTwo{
+        name
+        expiryDate
+        qty
+      }
+        trolleyThree{
+        name
+        expiryDate
+        qty
+      }
+        trolleyFour{
+        name
+        expiryDate
+        qty
+      }
+   
+      # photo
+      image
+        }
+    }
+}

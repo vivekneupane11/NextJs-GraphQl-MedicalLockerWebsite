@@ -1,0 +1,6 @@
+mutation createInventory($input: inventoryInput!) {
+  createInventory(input: $input) {
+    status
+
+  }
+}

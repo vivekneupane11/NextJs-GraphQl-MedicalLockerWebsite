@@ -1,0 +1,13 @@
+mutation updateService($input:UpdateServiceInput!,$updateServiceId:String!){
+    updateService(input:$input,id:$updateServiceId){
+        status,
+        service{
+                 
+      assignedAt
+      admin
+
+   
+      # photo
+        }
+    }
+}

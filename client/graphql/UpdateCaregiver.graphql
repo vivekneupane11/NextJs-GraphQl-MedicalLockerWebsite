@@ -1,0 +1,11 @@
+mutation UpdateCaregiver($input: UpdateCaregiverInput!) {
+  UpdateCaregiver(input: $input) {
+    status
+    user {
+      name
+      email
+      # photo
+      role
+    }
+  }
+}
